@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.h4 {
+    color: wheat;
+    margin-top: 1rem;
+
+} 
+
+header {
+    background-color: #FFFFFF;
+
+}
+
+body {
+    width: 100%;
+    font-family: "Montaga", serif;
+    /* background-color: black; */
+    
+}
+
+
+.container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 3rem;
+    align-items: center;
+    padding-left: 1rem;
+    /* background-color: #F0CCBB; */
+}
+
+.lovelies {
+    width: ;
+}
+
+.manase {
+    background-color: #F0CCBB;
+}
+
+.home {
+    display: flex; 
+    /* justify-content: space-between;     */
+    margin-left: 50%;
+    gap: 3rem;
+
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5rem;
+    /* background-color: #F0CCBB; */
+    /* padding-top: 5rem; */
+    
+}
+
+.saying {
+    font-size: 60px;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #C6754D;
+    color: white;
+    margin-top: 1rem;
+    font-size: 11px;
+    
+    
+
+}
+
+.couple {
+    width: 30%;
+    /* height: ; */
+    /* border-radius: 1rem; */
+    
+}
+
+img {
+    width: 100%;
+}
+
+.ourloveStory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5rem;
+    background-color: whitesmoke;
+}
+
+.ourstory {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.ring {
+    /* height: 100%; */
+    /* width: 50%; */
+    background-color: whitesmoke;
+    
+    
+     
+}
+
+.small {
+    margin: 5rem 0 2rem 45%;
+    /* padding-top: 50%; */
+    /* background-color: whitesmoke; */
+    
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .h4 {
+        color: wheat;
+        margin-top: 1rem;
+    
+    }
+    
+    body {
+        width: 100%;
+        font-family: "Montaga", serif;
+        /* background-color: black; */
+        
+    }
+    
+    
+    .container {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 3rem;
+        align-items: center;
+        padding-left: 1rem;
+        background-color: #FFFFFF;
+    }
+    
+    .lovelies {
+        width: ;
+        /* display: flex; */
+        margin-right: 5rem;
+    
+    }
+    
+    .home {
+        display: flex; 
+        /* justify-content: space-between;     */
+        margin-left: 50%;
+        gap: 3rem;
+        display: none;
+    
+    }
+    
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem 5rem;
+        background-color: #F0CCBB;
+        /* padding-top: 5rem; */
+        flex-direction: column;
+    
+        
+    }
+    
+   h3 {
+    font-size: 2rem;
+    
+   }
+
+   .please {
+    font-size: 17%;
+    font-weight: 10rem;
+    color: black;
+    /* margin-bottom: 20rem; */
+    
+   }
+    
+    .button {
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        border: none;
+        background-color: #C6754D;
+        color: white;
+        /* margin-top: 1rem; */
+        /* font-size: 11px; */  
+        width: 100%;  
+    }
+
+
+    
+    .couple {
+        width: 100%;
+        height: ;
+        border-radius: ;
+        padding: 1rem;
+        
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .ourloveStory {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem 5rem;
+        background-color: whitesmoke;
+        flex-direction: column;
+    }
+    
+    .ourstory {
+        font-size: 90%;
+        margin: 1rem 50%;
+        
+    }
+
+    p {
+        font-size: 37%;
+        
+    }
+    
+    .ring {
+        /* height: 100%; */
+        /* width: 50%; */
+        background-color: whitesmoke;
+        
+        
+         
+    }
+    
+    .small {
+        margin: 5rem 0 2rem 45%;
+        /* padding-top: 50%; */
+        /* background-color: whitesmoke; */
+        
+        
+    }
+    
+    footer {
+        background-color: whitesmoke;
+        
+    }
+}
