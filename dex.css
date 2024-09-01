@@ -1,0 +1,441 @@
+:root{
+    --whiteColor: #FCF9F7;
+    
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+}
+
+.icon{
+    display: none;   
+}
+
+body{
+    font-family: "Montaga", serif;
+    /* width: 100%; */
+}
+
+img{
+    width: 100%;
+}
+
+.hell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 0 5%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.lovelies {
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    gap: 3rem;
+    padding-right: 2rem;
+    cursor: pointer;   
+}
+
+.ourstory {
+    color: #C6754D;
+    /* display: flex; */
+}
+
+/* .maincotainer {
+    width: 100%;
+    
+} */
+
+.story {
+    background-color: #F0CCBB;
+    display: flex;
+    padding: 5% 5%;
+    justify-content: space-between;
+    align-items: center;
+
+      
+}
+
+.edwin{
+    width: 60%;
+    font-weight: 400; 
+    font-size: 24px;
+
+}
+
+.del{
+    line-height: 70px;
+}
+
+.manase {
+    display: flex;
+    width: 40%;
+}
+
+
+.grid-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    line-height: 1.5rem; 
+    padding: 5% 5%;
+    gap: 5% ;
+    
+}
+
+
+.venue{
+    margin-bottom: 1rem;
+}
+
+.puttingRing{
+    display: none;
+}
+
+span{
+    color: #231F20;
+    font-size: 1.2rem;
+    font-family: "Montaga", serif;
+    font-weight: 100;
+    color: #231F20;
+}
+
+.container1{
+    display: flex; 
+    align-items: center;
+    padding: 5% 5%;  
+    position: relative; 
+}
+
+.manWoman{
+    width: 90%;
+    
+}
+
+.whereLoveMeet{
+    background-color: #C6754D; 
+    width: 50%;
+    /* height: 250px;  */
+    margin: 7% 5%;
+    position: absolute;
+    left: 40%;
+    /* align-content: center; */
+    padding: 5% 0;
+    color: var(--whiteColor);
+        
+}
+
+.where{
+    padding:5% 10%;
+}
+
+.whispered{
+    padding:0 10%;
+}
+
+.weddingGroom{
+    color: var(--whiteColor);
+    /* line-height: 3rem;  */
+    padding-top: 2%;
+    text-align: center;
+      
+}
+
+.party{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.groomsMen{
+    
+}
+
+.flower{
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
+.container3{
+    background-color: #97917A;
+    /* padding: 5% 0 0 0; */
+    position: relative;
+}
+
+.leave{
+    position: absolute;
+    top: 0;
+    left: 17%;
+    
+}
+
+
+.pictures1{
+    display: flex;
+    /* justify-content: space-between; */
+    padding:1rem 5%;
+    gap: 2%;
+}
+
+.pictures2{
+    display: flex;
+    /* justify-content: space-between; */
+    padding:1rem 5%;
+    gap: 2%;    
+}
+
+.bridesMaid{
+    color: var(--whiteColor);
+    text-align: center;
+    
+
+}
+
+.all{
+    color: var(--whiteColor);
+    padding-left: 40%;
+}
+
+
+footer{
+    padding: 2rem ;
+    /* margin-left: 40%; */
+    text-align: center;  
+}
+
+@media screen and (max-width:600px){
+    
+    .icon{
+        display: block;
+        margin-right: 0%;
+    }
+    
+    .hell {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        padding: 3% 5%;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .lovelies {
+        cursor: pointer;
+        width: 5rem;
+    }
+    
+    .home {
+        display: flex;
+        gap: 3rem;
+        padding-right: 2rem;
+        cursor: pointer;  
+        display: none; 
+    }
+    
+    .ourstory {
+        color: #C6754D;
+        /* display: flex; */
+        display: none;
+    }
+    
+    /* .maincotainer {
+        width: 100%;
+        
+    } */
+    
+    .story {
+        background-color: #F0CCBB;
+        display: flex;
+        padding: 15% 5%;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;     
+    }
+    
+    .edwin{
+        width: 100%;
+        font-weight: 400; 
+        font-size: 24px;
+    
+    }
+    
+    .del{
+        line-height: 70px;
+    }
+    
+    .manase {
+        display: flex;
+        width: 100%;
+    }
+    
+    
+    .grid-container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto;
+        line-height: 1.5rem; 
+        padding: 5% 5%;
+        gap: 5% ;
+    
+        
+    }
+    
+    
+    .venue{
+        margin-bottom: 1rem;
+    }
+
+    .puttingRing{
+        display: block;
+        padding: 5%;
+    }
+    
+    span{
+        color: #231F20;
+        font-size: 1.2rem;
+        font-family: "Montaga", serif;
+        font-weight: 100;
+        color: #231F20;
+    }
+    
+    .container1{
+        display: flex; 
+        align-items: center;
+        padding: 0% 0%;  
+        position: relative; 
+        flex-direction: column-reverse;
+    }
+    
+    .manWoman{
+        width: 100%;
+        position: relative;
+        z-index: -1;
+        margin-bottom: 2rem;
+        
+        
+    }
+    
+    .whereLoveMeet{
+        background-color: #C6754D; 
+        width: 90%;
+        /* height: 250px;  */
+        margin: 0% 5% -1rem;
+        position: static;
+        /* top: 10%; */
+        /* z-index: 5; */
+        left: auto;
+        /* align-content: center; */
+        padding: 0% 5%;
+        color: var(--whiteColor);
+
+            
+    }
+    
+    .where{
+        padding:5% 10%;
+    }
+    
+    .whispered{
+        padding:0 10%;
+    }
+    
+    .weddingGroom{
+        color: var(--whiteColor);
+        /* line-height: 3rem;  */
+        padding-top: 2%;
+        text-align: center;
+          
+    }
+    
+    .party{
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        
+    }
+    
+    .groomsMen{
+        
+    }
+    
+    .flower{
+        position: absolute;
+        right: 0;
+        top: 5%;
+    }
+    
+    .container3{
+        background-color: #97917A;
+        /* padding: 5% 0 0 0; */
+        position: relative;
+    }
+    
+    .leave{
+        position: absolute;
+        top: 0;
+        left: 17%;
+        
+    }
+    
+    
+    .pictures1{
+        display: flex;
+        /* justify-content: space-between; */
+        padding:1rem 5%;
+        gap: 2%;
+        flex-direction: column;
+    }
+    
+    .pictures2{
+        display: flex;
+        /* justify-content: space-between; */
+        padding:1rem 5%;
+        gap: 2%;
+        flex-direction: column;    
+    }
+    
+    .bridesMaid{
+        color: var(--whiteColor);
+        text-align: center;
+        
+    
+    }
+    
+    .all{
+        color: var(--whiteColor);
+        padding-left: 40%;
+    }
+    
+    
+    footer{
+        padding: 2rem ;
+        /* margin-left: 40%; */
+        text-align: center; 
+        cursor: pointer; 
+        text-decoration: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
